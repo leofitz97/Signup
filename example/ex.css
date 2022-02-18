@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content:center;
+    flex-direction: row;
+    
+}
+
+.container > div {
+    height: 50px;
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 5px;
+    padding-top: 5px;
+}
+.container .inner {
+    background-color: blueviolet;
+}
+
+.container .inner2 {
+    background-color: brown;
+}
+.container .inner3 {
+    background-color: aqua;
+}

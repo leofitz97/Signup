@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Norse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Norse.woff) format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Norse Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Norsebold.woff) format('woff');
+    }
+
+body {
+	margin-top: 0%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+#Container {
+	display: flex;
+	height: 1000px;
+	justify-content:center;
+	flex-wrap: nowrap;
+	
+}
+
+#Container .myImage {
+	display: flex;
+	width: 550px;
+	height: 1000px;
+	margin-left: 0px;
+	background-image: url(../images/oddin.jpeg);
+	background-color: #596D48;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Container .myImage .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.479);
+	width: 550px;
+	height: 150px;	
+	margin-top: 400px;
+	margin-left: 0px;
+}
+
+#Container .myImage .logo img {
+	width: 90px;
+	height: 120px;
+}
+
+#Container .myImage p {
+	color: white;
+	font-family: 'Norse Bold';
+	font-size: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+	padding-top: 50px;
+}
+
+#Container .contents {
+	width: 800px;
+	height: 1000px;
+	background-color: #596d481f;
+}
+#Container .contents .last {
+	height: 100px;
+	margin-top: 0px;
+	padding-left: 50px;
+}
+#Container .contents h3 {
+	width: 650px;
+	height: 90px;
+	margin-left: 50px;
+	margin-top: 200px;
+	margin-bottom: 0px;
+	font-size: x-large;
+	font-family: Norse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Container .contents .sub {
+	margin-top: 30px;
+}
+#Container .contents p{
+	margin-left: 50px;
+	font-size: x-large;
+	font-family: 'Times New Roman', Times, serif;
+	color: darkgrey;
+	font-weight: bold;
+}
+
+#Container .contents .myform {
+	padding-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: large;
+	flex-direction: row;
+	height: 260px;
+	border-bottom: 20px;
+	border-bottom-style:groove;
+	border-bottom-color: rgba(255, 255, 255, 0.486);
+	border-bottom-width: 10px;
+	-webkit-rtl-ordering:logical;
+}
+#Container .contents .myform >div {
+	border-radius: 10px;
+	border-bottom: 10px;
+	flex: 1 1 auto;
+
+}
+
+#Container .contents .myform >div >label{
+	margin-bottom: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 30px;
+	height: fit-content;
+	flex: 1 5 auto;
+}
+#Container .contents .myform >div>input {
+	width: 250px;
+	border-style:ridge;
+	border-radius: 5px;
+	border-color:#E5E7EB;
+	height: 25px;
+	padding: 0px;
+}
+#Container .contents .myform .second .focus{
+	border-color: blue;
+}
+
+#Container .contents .last button{
+	background-color:  #596D48;
+	color: white;
+	height: 45px;
+	width: 200px;
+	border-radius: 10px;
+}
+
